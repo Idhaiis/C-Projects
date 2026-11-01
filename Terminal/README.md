@@ -7,10 +7,10 @@ You can compile and run the code using GCC (MinGW or a native Linux compiler):
 
 ```bash
 # Compile
-gcc shell.c -o myshell
+gcc main.c -o shell
 
 # Run (Linux/macOS)
-./myshell
+./shell
 
 # Run (Windows)
-myshell.exe
+shell.exe
