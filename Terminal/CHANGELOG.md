@@ -13,6 +13,8 @@
   * Added `cd` command to change current working directory and `cd..` for exiting current working directory.
   * At the beggining it shows current working directory before ` >  `.
 
-## Day 3 v1.2
+## Day 3 v1.2.1 & v1.2.2
 
-* Fixed `cd <path>` command now program can find path that uses spaces. e.g. `cd My Projects`
+* **Fixing Commands:**
+  * Fixed `cd <path>` command now program can find path that uses spaces. e.g. `cd My Projects`
+  * When input is more than 1023 characters after 1023th character program was working again. Fixed that if user input is more than 1024 characters program is sending an error message and program drains stdin.
